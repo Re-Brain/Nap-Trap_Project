@@ -6,7 +6,7 @@ type Props = {}
 const User = (props: Props) => {
   return (
     <View style={styles.container}>
-      <Text>Hello</Text>
+      <Text>Hello World</Text>
     </View>
   )
 }
