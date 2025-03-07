@@ -10,7 +10,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is the home page of the application. Allowing the users click the button to detect their drowsiness.
 
-![Main Page Display](images/NapTrap_Main_Menu.png)
+<p style="text-align: center;">
+  <img src="images/homePage.png" alt="Main Page Display">
+</p>
 
 ### Connecting Page
 
