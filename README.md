@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Nap Trap Project - Driver Drowsiness Detection System 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Introduction
 
-## Get started
+&nbsp;&nbsp;&nbsp;&nbsp;This is the front-end of the mobile application for the Nap Trap Project (Driver Drowsiness Detection System). I used React Native to build front-end of the mobile application, and utilized Expo, which provided a set of pre-configured libraries and components that allowed for rapid prototyping and efficient deployment of the app.
 
-1. Install dependencies
+## Application's Page
 
-   ```bash
-   npm install
-   ```
+### Home Page
 
-2. Start the app
+&nbsp;&nbsp;&nbsp;&nbsp;This is the home page of the application. Allowing the users click the button to detect their drowsiness.
 
-   ```bash
-    npx expo start
-   ```
+![Main Page Display](images/NapTrap_Main_Menu.png)
 
-In the output, you'll find options to open the app in a
+### Connecting Page
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+&nbsp;&nbsp;&nbsp;&nbsp;This page that should display when the application is trying to connecting with the hardware (drowsiness detector).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Connecting Page Display](images/NapTrap_Connecting.png)
 
-## Get a fresh project
+### Detecting Page
 
-When you're ready, run:
+&nbsp;&nbsp;&nbsp;&nbsp;This page which will display when the connection between the hardware and the app has already been established, and the app is waiting the hardware to send a signal that it detect drowsiness from the user.
 
-```bash
-npm run reset-project
-```
+![Detecting Page Display](images/NapTrap_Detecting.png)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Drowsiness Detected Page
 
-## Learn more
+&nbsp;&nbsp;&nbsp;&nbsp;This page which will display when the drowsiness detected and warn the user about his/her condition.
 
-To learn more about developing your project with Expo, look at the following resources:
+![Drowsiness Detected Page Display](images/NapTrap_Fatigue_Detected.png)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Warning to Take a Break Page
 
-## Join the community
+&nbsp;&nbsp;&nbsp;&nbsp;This page which will display when the drowsiness has been detected for a several time, and warned the user to stop driving
 
-Join our community of developers creating universal apps.
+![Warning to Take a Break Page Display](images/NapTrap_Please_Break.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
