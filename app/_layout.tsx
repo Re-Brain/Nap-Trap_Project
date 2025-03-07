@@ -7,6 +7,10 @@ const _layout = () => {
     <>
         <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown : false}}/>
+            <Stack.Screen name="index/connecting" options={{ headerShown : false}}/>
+            <Stack.Screen name="index/detecting" options={{ headerShown : false}}/>
+            <Stack.Screen name="index/warningOne" options={{ headerShown : false}}/>
+            <Stack.Screen name="index/warningTwo" options={{ headerShown : false}}/>
             <Stack.Screen name="+not-found"/>
         </Stack>
         <StatusBar style="light" />
