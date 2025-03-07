@@ -4,6 +4,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is the front-end of the mobile application for the Nap Trap Project (Driver Drowsiness Detection System). I used React Native to build front-end of the mobile application, and utilized Expo, which provided a set of pre-configured libraries and components that allowed for rapid prototyping and efficient deployment of the app.
 
+&nbsp;&nbsp;&nbsp;&nbsp;The Nap Trap Project purpose is to create a product that help prevent driver from getting into an accident due to his/her drowsiness. The device will be attached to the user, and if the device detect drowsiness. The mobile application will warn the user about his/her condition, and will warn the user if the device detect drowsiness for multiple times.
+
 ## Application's Page
 
 ### Home Page
